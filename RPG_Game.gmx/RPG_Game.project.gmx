@@ -5,10 +5,28 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_player_up</sprite>
+    <sprite>sprites\spr_player_down</sprite>
+    <sprite>sprites\spr_player_left</sprite>
+    <sprite>sprites\spr_player_right</sprite>
+    <sprite>sprites\spr_player_idle_up</sprite>
+    <sprite>sprites\spr_player_idle_down</sprite>
+    <sprite>sprites\spr_player_idle_left</sprite>
+    <sprite>sprites\spr_player_idle_right</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <shaders name="shaders"/>
+  <scripts name="scripts">
+    <script>scripts\scr_movement.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_controller</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_game</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
